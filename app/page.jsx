@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center">
-      <h1 className="text-xl font-semibold">Hello ilham</h1>
+    <div className="grid grid-cols-2">
+      <Navbar />
+      <div>ini konten</div>
     </div>
   );
 }
