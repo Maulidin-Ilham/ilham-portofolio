@@ -4,9 +4,10 @@ import CardNav from "./components/CardNav";
 import Navbar from "./components/Navbar";
 import ArticleIcon from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
+
 export default function Home() {
   return (
-    <div className="flex flex-row p-3 mt-12 mx-2 md:max-w-xl lg:flex lg:flex-col lg:justify-center ">
+    <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto">
       <Navbar />
       <div className="mt-14">
         <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
@@ -21,7 +22,7 @@ export default function Home() {
       <div className="mt-10">
         <Bio />
       </div>
-      <div className="mt-6 flex flex-row space-x-4 ">
+      <div className="mt-6 flex flex-row space-x-4">
         <CardNav title={"CV"} icon={<ArticleIcon />} />
         <CardNav title={"Email"} icon={<EmailIcon />} />
       </div>
