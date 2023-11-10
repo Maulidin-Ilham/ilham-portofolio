@@ -1,10 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import Bio from "./components/Bio";
+import CardNav from "./components/CardNav";
 import Navbar from "./components/Navbar";
-
+import ArticleIcon from "@mui/icons-material/Article";
+import EmailIcon from "@mui/icons-material/Email";
 export default function Home() {
   return (
-    <div className="p-4 mt-12">
+    <div className="p-4 mt-12 mx-3">
       <Navbar />
       <div className="mt-14">
         <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
@@ -18,6 +20,10 @@ export default function Home() {
       </div>
       <div className="mt-10">
         <Bio />
+      </div>
+      <div className="mt-6 flex flex-col space-y-4 ">
+        <CardNav title={"CV"} icon={<ArticleIcon />} />
+        <CardNav title={"Email"} icon={<EmailIcon />} />
       </div>
     </div>
   );
