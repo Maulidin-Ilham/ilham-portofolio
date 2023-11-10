@@ -6,7 +6,7 @@ import ArticleIcon from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
 export default function Home() {
   return (
-    <div className="p-4 mt-12 mx-3">
+    <div className="p-3 mt-12 mx-2">
       <Navbar />
       <div className="mt-14">
         <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="mt-10">
         <Bio />
       </div>
-      <div className="mt-6 flex flex-col space-y-4 ">
+      <div className="mt-6 flex flex-row space-x-4 ">
         <CardNav title={"CV"} icon={<ArticleIcon />} />
         <CardNav title={"Email"} icon={<EmailIcon />} />
       </div>
