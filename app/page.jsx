@@ -6,7 +6,7 @@ import ArticleIcon from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
 export default function Home() {
   return (
-    <div className="p-3 mt-12 mx-2">
+    <div className="flex flex-row p-3 mt-12 mx-2 md:max-w-xl lg:flex lg:flex-col lg:justify-center ">
       <Navbar />
       <div className="mt-14">
         <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
