@@ -8,8 +8,7 @@ import EmailIcon from "@mui/icons-material/Email";
 export default function Home() {
   return (
     <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto">
-      <Navbar />
-      <div className="mt-14">
+      <div className="">
         <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
       </div>
       <div className="mt-6">
