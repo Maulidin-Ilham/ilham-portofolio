@@ -1,10 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import TechStack from "../components/TechStack";
+import CardNav from "../components/CardNav";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 const Page = () => {
   return (
-    <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto">
+    <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto mb-3">
       <h1 className="text-xl font-semibold">About Me</h1>
       <h1 className="mt-5">
         I'm Ilham{" "}
@@ -56,6 +61,21 @@ const Page = () => {
         discoveries I make along the way. Let's build, create, and learn
         together!
       </h1>
+
+      <TechStack />
+      <div className="mt-6 flex flex-col space-y-3 md:flex md:flex-row md:space-y-0 md:space-x-3">
+        <CardNav title={"Linkedin"} icon={<LinkedInIcon />} href={"#"} />
+        <CardNav
+          title={"Github"}
+          icon={<GitHubIcon />}
+          href={"https://github.com/Maulidin-Ilham"}
+        />
+        <CardNav
+          title={"Email"}
+          icon={<EmailIcon />}
+          href={"mailto:ilhammaulidin73@gmail.com"}
+        />
+      </div>
     </div>
   );
 };

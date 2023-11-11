@@ -7,9 +7,9 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export default function Home() {
   return (
-    <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto">
+    <div className="flex flex-col p-3 mt-12 mx-2 md:max-w-2xl md:mx-auto lg:max-w-3xl lg:mx-auto mb-3">
       <div className="">
-        <h1 className="text-lg font-semibold">hey, i'm Ilham Maulidin 👋</h1>
+        <h1 className="text-xl font-semibold">hey, i'm Ilham Maulidin 👋</h1>
       </div>
       <div className="mt-6">
         <p>
@@ -22,8 +22,12 @@ export default function Home() {
         <Bio />
       </div>
       <div className="mt-6 flex flex-row space-x-4">
-        <CardNav title={"CV"} icon={<ArticleIcon />} />
-        <CardNav title={"Email"} icon={<EmailIcon />} />
+        <CardNav title={"CV"} icon={<ArticleIcon />} href={"#"} />
+        <CardNav
+          title={"Email"}
+          icon={<EmailIcon />}
+          href={"mailto:ilhammaulidin73@gmail.com"}
+        />
       </div>
     </div>
   );
