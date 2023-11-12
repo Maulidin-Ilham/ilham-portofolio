@@ -13,7 +13,7 @@ const Bio = async () => {
         target="_blank"
         href="https://github.com/Maulidin-Ilham"
       >
-        <div className="inline-flex gap-[27px] justify-center items-center rounded-lg border border w-[350px] h-[180px] gap-x-6 bg-[#262626] hover:opacity-75 transition duration-300">
+        <div className="flex flex-row space-x-4 items-center justify-center border px-3 py-6 rounded sm:max-w-md lg:max-w-lg sm:justify-center sm:space-x-10 bg-[rgb(38,38,38)] hover:opacity-70 cursor-pointer transition duration-300">
           <img
             src={data.avatar_url}
             alt=""
