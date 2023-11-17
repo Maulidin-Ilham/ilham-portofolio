@@ -79,6 +79,23 @@ const page = () => {
             quotes.{" "}
           </p>
         </Link>
+        <Link
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
+          href={"https://link-shorter-by-ilham.vercel.app/"}
+          target="_blank"
+        >
+          <img
+            src={"/link-shorter.png"}
+            alt="link-shorter"
+            className="  object-cover rounded"
+          />
+          <h1 className=" font-semibold mt-2 lg:text-lg">Link Shorter</h1>
+          <p className="line-clamp-3">
+            Effortlessly generate concise URLs, enhancing accessibility and
+            shareability. Simplify your links, elevate your online experience.
+            Built by React js and daisy UI
+          </p>
+        </Link>
       </div>
     </div>
   );
