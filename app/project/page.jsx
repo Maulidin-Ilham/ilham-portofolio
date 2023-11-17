@@ -12,7 +12,7 @@ const page = () => {
       </h1>
       <div className="grid grid-cols-2 mt-8 gap-x-5 gap-y-8 w-full ">
         <Link
-          className="flex flex-col  w-full "
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
           href={"https://ilham-idcamp-note-app.vercel.app/"}
           target="_blank"
         >
@@ -28,7 +28,7 @@ const page = () => {
           </p>
         </Link>
         <Link
-          className="flex flex-col  w-full "
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
           href={"https://fake-store-ilham.vercel.app/"}
           target="_blank"
         >
@@ -44,7 +44,7 @@ const page = () => {
           </p>
         </Link>
         <Link
-          className="flex flex-col  w-full "
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
           href={"https://anime-hub-ilham.vercel.app/"}
           target="_blank"
         >
@@ -62,7 +62,7 @@ const page = () => {
           </p>
         </Link>
         <Link
-          className="flex flex-col  w-full "
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
           href={"https://quote-generator-maulidin-ilham.vercel.app/"}
           target="_blank"
         >
