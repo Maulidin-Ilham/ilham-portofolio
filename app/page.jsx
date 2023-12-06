@@ -22,7 +22,13 @@ export default function Home() {
         <Bio />
       </div>
       <div className="mt-6 flex flex-row space-x-4">
-        <CardNav title={"CV"} icon={<ArticleIcon />} href={"#"} />
+        <CardNav
+          title={"CV"}
+          icon={<ArticleIcon />}
+          href={
+            "https://drive.google.com/file/d/1pw1nzmamh22LaxGYk3qQZwpFA-5VIFIN/view?usp=sharing"
+          }
+        />
         <CardNav
           title={"Email"}
           icon={<EmailIcon />}

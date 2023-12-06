@@ -64,7 +64,11 @@ const Page = () => {
 
       <TechStack />
       <div className="mt-6 flex flex-col space-y-3 md:flex md:flex-row md:space-y-0 md:space-x-3">
-        <CardNav title={"Linkedin"} icon={<LinkedInIcon />} href={"#"} />
+        <CardNav
+          title={"Linkedin"}
+          icon={<LinkedInIcon />}
+          href={"https://www.linkedin.com/in/ilham-maulidin/"}
+        />
         <CardNav
           title={"Github"}
           icon={<GitHubIcon />}
