@@ -1,10 +1,12 @@
 import React from "react";
-
-import { user } from "../lib/user";
+import { followers, following, repos, user } from "../lib/user";
 
 const Bio = async () => {
   const data = await user();
-  console.log(user);
+  const followersData = await followers();
+  const followingData = await following();
+  const reposData = await repos();
+  console.log(followersData);
 
   return (
     <>
@@ -21,15 +23,15 @@ const Bio = async () => {
           />
           <div className="flex flex-col gap-2">
             <div className="flex flex-row space-x-2">
-              <h1 className="font-semibold">{data.public_repos}</h1>
+              <h1 className="font-semibold">{reposData.length}</h1>
               <h1>Repos</h1>
             </div>
             <div className="flex flex-row space-x-2">
-              <h1 className="font-semibold">{data.followers}</h1>
+              <h1 className="font-semibold">{followersData.length}</h1>
               <h1>Followers</h1>
             </div>
             <div className="flex flex-row space-x-2">
-              <h1 className="font-semibold">{data.following}</h1>
+              <h1 className="font-semibold">{followingData.length}</h1>
               <h1>Following</h1>
             </div>
           </div>
