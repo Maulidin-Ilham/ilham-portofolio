@@ -6,7 +6,7 @@ const Bio = async () => {
   const followersData = await followers();
   const followingData = await following();
   const reposData = await repos();
-  console.log(followersData);
+  console.log(reposData);
 
   return (
     <>
@@ -24,6 +24,7 @@ const Bio = async () => {
           <div className="flex flex-col gap-2">
             <div className="flex flex-row space-x-2">
               <h1 className="font-semibold">{reposData.length}</h1>
+
               <h1>Repos</h1>
             </div>
             <div className="flex flex-row space-x-2">

@@ -103,15 +103,15 @@ const page = () => {
           target="_blank"
         >
           <img
-            src={"/link-shorter.png"}
-            alt="link-shorter"
+            src={"/pegawaiku.png"}
+            alt="pegawaiku"
             className="  object-cover rounded"
           />
-          <h1 className=" font-semibold mt-2 lg:text-lg">Employee App</h1>
+          <h1 className=" font-semibold mt-2 lg:text-lg">Pegawai Ku</h1>
           <p className="line-clamp-3">
-            Effortlessly generate concise URLs, enhancing accessibility and
-            shareability. Simplify your links, elevate your online experience.
-            Built by React js and daisy UI
+            Implemented a project utilizing the Decision Support System (DSS)
+            with the Evaluation based on Distance from Average Solution (EDAS)
+            method for precise and unbiased employee performance assessment
           </p>
         </Link>
       </div>
