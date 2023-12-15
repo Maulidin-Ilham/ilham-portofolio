@@ -21,7 +21,7 @@ const page = () => {
             alt="note-app"
             className="  object-cover rounded"
           />
-          <h1 className=" font-semibold mt-2 lg:text-lg">Note Taking app</h1>
+          <h1 className=" font-semibold mt-2 lg:text-lg">Note Taking App</h1>
           <p className="line-clamp-3">
             The Dicoding ID Camp Final Project is an innovative note-taking
             application developed using React.js and styled with Tailwind CSS.
@@ -90,6 +90,24 @@ const page = () => {
             className="  object-cover rounded"
           />
           <h1 className=" font-semibold mt-2 lg:text-lg">Link Shorter</h1>
+          <p className="line-clamp-3">
+            Effortlessly generate concise URLs, enhancing accessibility and
+            shareability. Simplify your links, elevate your online experience.
+            Built by React js and daisy UI
+          </p>
+        </Link>
+
+        <Link
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
+          href={"https://github.com/Maulidin-Ilham/pegawai-ku"}
+          target="_blank"
+        >
+          <img
+            src={"/link-shorter.png"}
+            alt="link-shorter"
+            className="  object-cover rounded"
+          />
+          <h1 className=" font-semibold mt-2 lg:text-lg">Employee App</h1>
           <p className="line-clamp-3">
             Effortlessly generate concise URLs, enhancing accessibility and
             shareability. Simplify your links, elevate your online experience.
