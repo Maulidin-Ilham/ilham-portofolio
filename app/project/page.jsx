@@ -114,6 +114,24 @@ const page = () => {
             method for precise and unbiased employee performance assessment
           </p>
         </Link>
+
+        <Link
+          className="flex flex-col  w-full hover:opacity-80 transition duration-300"
+          href={"https://react-pokedex-ilham-maulidin.vercel.app/"}
+          target="_blank"
+        >
+          <img
+            src={"/react-pokedex.png"}
+            alt="react-pokedex"
+            className="  object-cover rounded"
+          />
+          <h1 className=" font-semibold mt-2 lg:text-lg">Pokedex</h1>
+          <p className="line-clamp-3">
+            An interactive Pokédex web application using ReactJS. The ReactJS
+            Pokédex project aims to provide users with a visually appealing and
+            responsive platform to explore information about Pokémon.
+          </p>
+        </Link>
       </div>
     </div>
   );
