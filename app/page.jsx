@@ -26,7 +26,7 @@ export default function Home() {
           title={"CV"}
           icon={<ArticleIcon />}
           href={
-            "https://drive.google.com/file/d/1pw1nzmamh22LaxGYk3qQZwpFA-5VIFIN/view?usp=sharing"
+            "https://drive.google.com/file/d/1LNMdzIMVTn57sswXrSKTnk2h0KVXGRPc/view?usp=sharing"
           }
         />
         <CardNav
