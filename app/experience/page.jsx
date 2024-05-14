@@ -26,6 +26,15 @@ const page = () => {
           </h1>
           <p>Digital Talent Scholarship</p>
         </div>
+        <div>
+          <h1 className="text-gray-400 text-lg">
+            2024{" "}
+            <span className="font-semibold text-white">
+              Mentee - React and Backend Developer
+            </span>
+          </h1>
+          <p>Dicoding Indonesia</p>
+        </div>
       </div>
     </div>
   );
