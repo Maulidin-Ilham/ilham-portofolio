@@ -13,9 +13,9 @@ export default function Home() {
       </div>
       <div className="mt-6">
         <p>
-          I'm a passionate front-end developer currently navigating the exciting
-          realms of college life. 🎓✨. Focused on React.js and Next.js, I bring
-          ideas to life through clean, interactive interfaces.
+          I'm a passionate web developer currently navigating the exciting
+          realms of college life. 🎓✨. I bring ideas to life through clean,
+          interactive interfaces.
         </p>
       </div>
       <div className="mt-10">

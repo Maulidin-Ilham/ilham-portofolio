@@ -12,12 +12,13 @@ const TechStack = () => {
         <Image src={"/tailwind-icon.png"} alt="js" width={40} height={22} />
         <Image src={"/react-icon.png"} alt="react" width={30} height={24} />
         <Image
-          src={"/next-icon.png"}
+          src={"/next.png"}
           alt="next"
-          width={26}
+          width={30}
           height={24}
-          className=" bg-white rounded-full"
+          className=" bg-white rounded-full "
         />
+        <Image src={"/laravel.png"} alt="react" width={30} height={24} />
       </div>
     </div>
   );

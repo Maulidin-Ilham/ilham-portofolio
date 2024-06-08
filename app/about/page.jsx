@@ -48,10 +48,24 @@ const Page = () => {
             />
             <h1 className="text-sm">Next js</h1>
           </Link>
+          <Link
+            href="https://laravel.com/"
+            target="_blank"
+            className="border bg-[rgb(38,38,38)] flex items-center space-x-2 px-2 py-2 rounded "
+          >
+            <img
+              src="/laravel.svg"
+              alt="laravel"
+              width={20}
+              height={20}
+              className="bg-white rounded-full"
+            />
+            <h1 className="text-sm">Laravel</h1>
+          </Link>
         </div>
         <span className="ml-1">
           . Each project reflects my commitment to mastering the art of frontend
-          development.
+          and backend development.
         </span>
       </h1>
       <h1 className="mt-4">
