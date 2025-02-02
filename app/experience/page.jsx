@@ -35,6 +35,16 @@ const page = () => {
           </h1>
           <p>Dicoding Indonesia</p>
         </div>
+
+        <div>
+          <h1 className="text-gray-400 text-lg">
+            2024{" "}
+            <span className="font-semibold text-white">
+              Internship Frontend Developer
+            </span>
+          </h1>
+          <p>PT. Alfath Teknologi Kreatif</p>
+        </div>
       </div>
     </div>
   );

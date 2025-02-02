@@ -1,5 +1,23 @@
 const projects = [
   {
+    title: "Psikoline",
+    imgSrc: "/psikoline.png",
+    desc: "This project is a psychological test application designed to streamline the recruitment process. Built with React.js and Tailwind CSS, the app offers an efficient and user-friendly experience for both recruiters and candidates",
+    link: "https://psikotes-fe.vercel.app/",
+  },
+  {
+    title: "Wealth Wise App",
+    imgSrc: "/wealth-wise.png",
+    desc: "WealthWise is a financial planning app built with react js that offers investment, emergency fund, and retirement calculators. It also features discussion forums and articles with practical financial insights ",
+    link: "https://wealth-wise-db.web.app/",
+  },
+  {
+    title: "Polinema Digital",
+    imgSrc: "/polinema-digital.png",
+    desc: "This project is a mobile application designed to manage academic data and survey results efficiently. By utilizing a Laravel backend and a Flutter-based frontend (Android Studio with Dart), the app enables seamless data collection, ensuring accuracy and efficiency. The system also features data visualization tools to assist in decision-making, helping improve the quality of educational services and campus support systems",
+    link: "https://github.com/Maulidin-Ilham/polinema-digital",
+  },
+  {
     title: "Note Taking App",
     imgSrc: "/note-app.png",
     desc: "The Dicoding ID Camp Final Project is an innovative note-taking application developed using React.js and styled with Tailwind CSS. ",
